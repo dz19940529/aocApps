@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         }
         setContentView(R.layout.activity_main);
         mPackageManager = getApplicationContext().getPackageManager();
-        initGridView();
+      //  initGridView();
         Log.w("dz", "onCreate: "+getTopActivity(this) );
     }
     public static String getTopActivity(Context context){
@@ -116,7 +116,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     private List<ResolveInfo> filter (List<ResolveInfo> sourceData) {
+
         List<ResolveInfo> filterData = new ArrayList<ResolveInfo>();;
+
+        filterData = new ArrayList<ResolveInfo>();
+
         List<String> filterList = Arrays.asList(PACKAGE_FILTER_LIST);
         for (ResolveInfo info : sourceData) {
             if (filterList.contains(info.activityInfo.packageName)) {
