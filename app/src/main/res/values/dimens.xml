@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--item_base_app.xml-->
+    <dimen name="itemAppWidth">220dp</dimen>
+    <dimen name="itemAppHeight">110dp</dimen>
+    <dimen name="itemAppIconWidth">72dp</dimen>
+    <dimen name="itemAppIconHeight">72dp</dimen>
+    <dimen name="itemAppIconTopMargin">10dp</dimen>
+</resources>
