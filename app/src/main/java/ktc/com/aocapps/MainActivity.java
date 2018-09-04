@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         }
         setContentView(R.layout.activity_main);
         mPackageManager = getApplicationContext().getPackageManager();
-      //  initGridView();
+        initGridView();
         Log.w("dz", "onCreate: "+getTopActivity(this) );
     }
     public static String getTopActivity(Context context){
